@@ -72,7 +72,11 @@ body{
 		color:white;
 	}
 	body{
-	background-color:black;
+	background-image:url("http://p1.pichost.me/i/30/1529961.jpg");
+	background-repeat:no-repeat;
+	background-size:relative;
+	background-position:center;
+	background-attachment: fixed;
 }
 
 
