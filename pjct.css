@@ -4,17 +4,11 @@
 	box-sizing: border-box;         /* Safari 5.1+, Chrome 10+, Firefox 29+, Opera 7+, IE 8+, Android 4.0+, iOS any */	
 }
 
-.header,
-.nav,
-.description 
-{
-	font-family: 'Open Sans', sans-serif;
-}
-
 .header{
 	text-align:center;
 	padding: 28px;
 	font-size: 25px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 a{
@@ -23,8 +17,8 @@ a{
 }
 .nav{
 	text-align:center;
-	padding-top:20px;
 	font-size:16px;
+	font-family: 'Open Sans', sans-serif;
 }
 ul{
 	margin:0 auto;
@@ -41,28 +35,32 @@ body{
 	margin:20px 1%;
 	display:block;
 	font-size:16px;
+	font-family: 'Open Sans', sans-serif;
 }
-
+img{
+	width:98%;
+	margin:20px 1%;
+	/*display:block;*/
+}
+h2{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
 @media (max-width: 768px) {
 	.header {
-		font-size: 48px;
+		font-size: 38px;
 	}
 	.nav{
-		font-size:30px;
+		font-size:16px;
 	}
-	
-	h2{
-		font-family: 'Open Sans', sans-serif;
-		text-align: center;
-	}
-	.description{
+}
+	/*.description{
 		font-family: 'Open Sans', sans-serif;
 		font-size: 18px;
 		text-align:center;
 		padding-top:20px;
 	}
-}
-@media (max-width: 1241px) {
+/*@media (max-width: 1241px) {
 	.header{
 		font-size: 64px;
 		color:white;
@@ -84,7 +82,6 @@ body{
 	.description{
 		font-size:16px;
 		color:white;
-		text-align:center;
 		width:800px;
 		margin:0 auto;
 	}
@@ -92,7 +89,6 @@ body{
 		padding-top: 20px;
 	}
 }
-
 img{
 	width:98%;
 	margin:20px 1%;
@@ -107,7 +103,8 @@ img{
 
 @media (min-width: 1241px) {
 	img {
-		width: 800px;
+
+		width: 500px;
 		margin:0 auto;
 		padding-bottom: 20px;
 		margin-left: 280px;
