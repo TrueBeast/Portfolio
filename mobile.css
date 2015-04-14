@@ -31,14 +31,18 @@
 
 .icon-facebook2:before {
 	content: "\ea8d";
+	font-size: 16px;
 }
 
 .icon-steam2:before {
 	content: "\eaae";
+	font-size: 16px;
 }
 
 .icon-linkedin:before {
 	content: "\eac8";
+	font-size:16px;
+	color:white;
 }
 
 
