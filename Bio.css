@@ -27,7 +27,7 @@ a{
 	float:right;
 }*/
 body{
-	color:red;
+	background-color:red;
 }
 /*body{
 	background-image:url("http://p1.pichost.me/i/30/1529961.jpg");
@@ -72,7 +72,7 @@ body{
 		color:white;
 	}
 	body{
-	color:black;
+	background-color:black;
 }
 
 
