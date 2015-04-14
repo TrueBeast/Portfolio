@@ -54,15 +54,9 @@ h2{
 		font-size:16px;
 	}
 }
-	/*.description{
-		font-family: 'Open Sans', sans-serif;
-		font-size: 18px;
-		text-align:center;
-		padding-top:20px;
-	}
-/*@media (max-width: 1241px) {
+	
+@media (max-width: 1241px) {
 	.header{
-		font-size: 64px;
 		color:white;
 	}
 	
@@ -71,16 +65,12 @@ h2{
 	}
 	a{
 		color:white;
-		font-size: 40px;
+		
 	}
 	
-	h2{
-		color:white;
-		text-align: center;
-		font-size: 30px;
-	}
+	
 	.description{
-		font-size:16px;
+		font-size:20px;
 		color:white;
 		width:800px;
 		margin:0 auto;
@@ -89,6 +79,7 @@ h2{
 		padding-top: 20px;
 	}
 }
+/*
 img{
 	width:98%;
 	margin:20px 1%;
