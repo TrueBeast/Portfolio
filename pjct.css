@@ -58,8 +58,11 @@ h2{
 @media (max-width: 1241px) {
 	.header{
 		color:white;
+		font-size: 48px;
 	}
-	
+	.nav{
+		font-size: 40px;
+	}
 	body{
 		background-color:black;
 	}
