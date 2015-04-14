@@ -6,7 +6,8 @@
 
 .header,
 .nav,
-.description {
+.description 
+{
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -15,6 +16,7 @@
 	padding: 28px;
 	font-size: 25px;
 }
+
 a{
 	text-decoration: none;
 	color:black;
@@ -33,67 +35,54 @@ body{
 	background-color: red;
 
 }
-.description{
+.description
+{
 	width:98%;
 	margin:20px 1%;
 	display:block;
 	font-size:16px;
 }
-/*.scroll{
-    width: 800px;
-    height: 150px;
-    overflow: scroll;
-    text-align: center;
-    */
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 	.header {
 		font-size: 48px;
 	}
 	.nav{
 		font-size:30px;
 	}
-	h3{
-		font-family: 'Open Sans', sans-serif;
-		text-align: center;
-	}
+	
 	h2{
 		font-family: 'Open Sans', sans-serif;
 		text-align: center;
 	}
 	.description{
 		font-family: 'Open Sans', sans-serif;
-		font-size: 16px;
+		font-size: 18px;
 		text-align:center;
 		padding-top:20px;
 	}
 }
-@media (min-width: 800px) {
+@media (max-width: 1241px) {
 	.header{
 		font-size: 64px;
 		color:white;
 	}
-	.nav{
-		font-size: 40px;
-		color:white;
-	}
+	
 	body{
-		background:black;
+		background-color:black;
 	}
 	a{
 		color:white;
+		font-size: 40px;
 	}
-	h3{
-		color:white;
-		
-	}
+	
 	h2{
 		color:white;
 		text-align: center;
 		font-size: 30px;
 	}
 	.description{
-		font-size:20px;
+		font-size:16px;
 		color:white;
 		text-align:center;
 		width:800px;
@@ -103,26 +92,7 @@ body{
 		padding-top: 20px;
 	}
 }
-/*.scroll{
-    width: 800px;
-    height: 150px;
-    overflow: scroll;
-    text-align: center;*/
 
-
-@media (min-width: 768px) {
-	.ul {
-		width: 586px;
-		margin: 0 auto;
-	}	
-}
-
-@media (min-width: 1241px) {
-	.ul {
-		width: 984px;
-		max-width: 1200px;
-	}	
-}
 img{
 	width:98%;
 	margin:20px 1%;
@@ -140,6 +110,7 @@ img{
 		width: 800px;
 		margin:0 auto;
 		padding-bottom: 20px;
+		margin-left: 280px;
 	}	
 }
 
@@ -153,20 +124,8 @@ img{
 @media (min-width: 768px) {
 	.footer {
 		font-size:30px;
-	}
-}
-
-@media (min-width: 1241px) {
-	.footer {
-		font-size:40px;
 		color:white;
 	}
 }
-.bio{
-	background-image:url("http://galyonkin.com/wp-content
-		/uploads/2011/10/Broken-Playstation-Controller-Wallpaper.png");
-	width:1000px;
-	height:800px;
-	padding-left: 400px;
-	padding-right:50px;
-}
+
+
