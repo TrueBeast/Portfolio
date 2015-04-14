@@ -67,6 +67,10 @@ h2{
 		color:white;
 		
 	}
+	h2{
+		padding-top: 20px;
+		color:white;
+	}
 	
 	
 	.description{
@@ -101,7 +105,7 @@ img{
 		margin-left: 280px;
 	}	
 }
-
+*/
 
 .footer{
 	clear:both;
