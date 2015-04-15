@@ -26,7 +26,7 @@ ul{
 	padding:0;
 }
 body{
-	background-color: red;
+	background-color: #FF3300;
 
 }
 .scroll{
@@ -69,7 +69,11 @@ h2{
 		font-size: 40px;
 	}
 	body{
-		background-color:black;
+	background-image:url("http://p1.pichost.me/i/30/1529961.jpg");
+	background-repeat:no-repeat;
+	background-size:relative;
+	background-position:center;
+	background-attachment: fixed;;
 	}
 	a{
 		color:white;
