@@ -6,11 +6,11 @@
 }
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?-eiwlvb');
-	src:url('fonts/icomoon.eot?#iefix-eiwlvb') format('embedded-opentype'),
-		url('fonts/icomoon.woff?-eiwlvb') format('woff'),
-		url('fonts/icomoon.ttf?-eiwlvb') format('truetype'),
-		url('fonts/icomoon.svg?-eiwlvb#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?a31utu');
+	src:url('fonts/icomoon.eot?#iefixa31utu') format('embedded-opentype'),
+		url('fonts/icomoon.woff?a31utu') format('woff'),
+		url('fonts/icomoon.ttf?a31utu') format('truetype'),
+		url('fonts/icomoon.svg?a31utu#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -31,18 +31,17 @@
 
 .icon-facebook2:before {
 	content: "\ea8d";
-	font-size: 16px;
+	color:white;
 }
 
 .icon-steam2:before {
-	content: "\eaae";
-	font-size: 16px;
+	content: "\e600";
+	color:white;
 }
 
 .icon-linkedin:before {
-	content: "\eac8";
-	font-size:16px;
-	color:white;
+	content: "\e601";
+	color:blue;
 }
 .portfolioicon{
 width: 30px;

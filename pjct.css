@@ -29,6 +29,11 @@ body{
 	background-color: red;
 
 }
+.scroll{
+	width:600px;
+	background-color:gray;
+	opacity: 0.9;
+	float:right;}
 .description
 {
 	width:98%;
