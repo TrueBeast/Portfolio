@@ -33,7 +33,7 @@ body{
 	background-position:center;
 	background-attachment: fixed;
 	
-}*/
+}
 .description{
 	width:98%;
 	margin:20px 1%;
@@ -68,9 +68,7 @@ body{
 		font-size: 64px;
 		color:white;
 	}
-	body{
-	background-color:black;
-}
+	
 
 
 	a{

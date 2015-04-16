@@ -60,7 +60,7 @@ width: 30px;
 }
 a{
 	text-decoration: none;
-	color:black;
+	color:white;
 }
 .nav{
 	text-align:center;
@@ -75,8 +75,11 @@ h3{
 
 }
 body{
-	background-color:#FF3300;
-	margin:0;
+	background-image:url(stardust.png);
+	
+	background-size:relative;
+	background-position:center;
+	background-attachment: fixed;
 }
 
 
@@ -97,14 +100,6 @@ body{
 	.nav{
 		font-size: 40px;
 		color:white;
-	}
-		
-		body{
-	background-image:url(stardust.png);
-
-	background-size:relative;
-	background-position:center;
-	background-attachment: fixed;
 	}
 		
 	a{

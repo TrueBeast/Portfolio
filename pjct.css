@@ -26,7 +26,12 @@ ul{
 	padding:0;
 }
 body{
-	background-color: #FF3300;
+	background-image:url(stardust.png);
+	
+	background-size:relative;
+	background-position:center;
+	background-attachment: fixed;
+	
 
 }
 .scroll{
