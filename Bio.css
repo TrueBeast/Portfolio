@@ -27,11 +27,8 @@ a{
 	float:right;
 }*/
 body{
-	background-color:#FF3300;
-}
-/*body{
-	background-image:url("http://p1.pichost.me/i/30/1529961.jpg");
-	background-repeat:no-repeat;
+	background-image:url(stardust.png);
+	
 	background-size:relative;
 	background-position:center;
 	background-attachment: fixed;

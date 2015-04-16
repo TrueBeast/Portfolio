@@ -100,7 +100,11 @@ body{
 	}
 		
 		body{
-	background-color:black;;
+	background-image:url(stardust.png);
+	
+	background-size:relative;
+	background-position:center;
+	background-attachment: fixed;
 	}
 		
 	a{
