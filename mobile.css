@@ -101,7 +101,7 @@ body{
 		
 		body{
 	background-image:url(stardust.png);
-	
+
 	background-size:relative;
 	background-position:center;
 	background-attachment: fixed;
@@ -118,7 +118,7 @@ body{
 }
 
 
-.id,
+
 img{
 	width:98%;
 	/*height:61px;*/
@@ -150,9 +150,10 @@ img{
 
 	}	
 	.id{
-		width:200px;
+		width:100px;
+		height: 100px;
 		margin:0 auto;
-		margin-left: 150px;
+		margin-left: 73px;
 	}
 }
 
